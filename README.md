@@ -4,8 +4,8 @@ This script automates the process of setting up a Squid-based HTTP proxy with us
 
 Usage:
 
-1. `chmod +x setup.sh`
-2. `cd squid-proxy/ && ./setup.sh`
+1. `git clone https://github.com/Zweak/squid-proxy`
+2. `cd squid-proxy/ && bash setup.sh`
 3. Enter desired username, password, and port (space seperated) for your Squid proxy.
 
 Note:
