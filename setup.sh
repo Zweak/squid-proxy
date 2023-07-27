@@ -2,7 +2,7 @@
 echo "Enter username, password, and port (space separated): "
 read username password port
 apt update && apt install squid apache2-utils -y #interruption here
-htpasswd -c /etc/squid/passwords $username
+htpasswd -c -b /etc/squid/passwords "$username" "$password"
 
 # Backup original squid.conf 
 mv /etc/squid/squid.conf /etc/squid/squid.conf.Original
