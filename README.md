@@ -5,8 +5,8 @@ This script automates the process of setting up a Squid-based HTTP proxy with us
 Usage:
 
 1. `git clone https://github.com/Zweak/squid-proxy`
-2. `cd squid-proxy/ && bash setup.sh`
-3. Enter desired username, password, and port (space seperated) for your Squid proxy.
+2. `cd squid-proxy/ && bash <desired_script>`
+3. Enter proxy details (space seperated)
 
 Note:
 - The script assumes that you have a Debian-based Linux distribution.
