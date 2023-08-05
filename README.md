@@ -11,5 +11,5 @@ Usage:
 Note:
 - The script assumes that you have a Debian-based Linux distribution.
 - The is no exception-handling whatsoever. If you pass in invalid ports or arguments, it won't work.
-- Tested on DigitalOcean only.
+- Tested on DigitalOcean and AWS.
 
