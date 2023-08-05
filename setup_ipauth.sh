@@ -1,5 +1,6 @@
+#!/bin/bash
 echo "Enter IP address you wish to authorize and proxy port: "
-read ip_address, port
+read ip_address port
 apt update && apt install squid apache2-utils -y #interruption here
 
 # Backup original squid.conf 
